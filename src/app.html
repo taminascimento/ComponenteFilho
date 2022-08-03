@@ -1,0 +1,37 @@
+	<template>
+		<lightning-card>
+			<div class="slds-m-around_medium">
+				<h1 class="slds-text-heading_large">Componente Filho</h1>
+
+				<!-- chamando um componente filho  objeto dinâmico-> -->
+				<c-child></c-child>
+
+
+				<!-- chamando um componente filho  ob dinâmico-->
+				<c-child nome = "Mario"></c-child>
+				<c-child nome = "joão"></c-child>
+				<c-child nome = "Júlia"></c-child>
+
+
+				<!--Chamando o componente empresa objeto estático -->
+				<c-empresa></c-empresa>
+
+				<!-- chamando o componente empresa  objeto dinamico-->
+				<c-empresa nome="Mamaco Corp" cnpj="0011"></c-empresa>
+				<c-empresa nome="Gorira Company" cnpj="2233"></c-empresa>
+				<c-empresa nome="Nana Pet" cnpj="3344"></c-empresa>
+			
+				<!--Chamando o componente Produto objeto estático -->
+				<c-produto></c-produto>
+
+				<!--Chamando o componente Produto objeto dinâmico -->
+
+			<c-produto nome ="Xbox" preco = "2500"></c-produto>
+			<c-produto nome = "P55" preco = "6000"></c-produto>
+			<c-produto nome="Brick Game" preco="10"></c-produto>
+			
+
+
+			</div>
+		</lightning-card>
+	</template>
